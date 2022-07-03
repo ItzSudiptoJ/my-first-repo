@@ -1,9 +1,46 @@
 body {
     margin: 0 auto;
     background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.hero {
+#nav-bar {
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    background-color: orange;
+}
+
+ul li a {
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: orangered;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+nav ul li {
+    display: inline;
+}
+
+#logo-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#hero {
     text-align: center;
     margin-top: 20px;
 }
@@ -14,10 +51,10 @@ body {
     border-radius: 50%;
 }
 
-.description,
-.about,
-.contact,
-.opinion {
+#description,
+#about,
+#contact,
+#opinion {
     border: 5px solid black;
     margin: 30px 200px;
     padding: 20px;
